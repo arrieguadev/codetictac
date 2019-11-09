@@ -18,6 +18,7 @@ import {
 
 import { toast } from "react-toastify";
 
+import logo from "../../assets/logo.png";
 import api from "../../services/api";
 
 export default function Login() {
@@ -62,9 +63,8 @@ export default function Login() {
   }
   return (
     <Container>
-      <Title>CodeTicTac</Title>
       <Header>
-        <FaCode size={30} />
+        <img src={logo} alt="codetictac" />
       </Header>
       <Form>
         <Label>E-mail</Label>
